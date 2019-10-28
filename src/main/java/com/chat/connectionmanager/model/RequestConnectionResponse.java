@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SendMessageRequest {
-	private Message message;
+public class RequestConnectionResponse {
+	private GrantStatus grantStatus;
+	private String url;
 }

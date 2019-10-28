@@ -7,6 +7,6 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class SendMessageRequest {
-	private Message message;
+public class RequestConnectionRequest {
+    private String userId;
 }
