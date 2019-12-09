@@ -9,5 +9,6 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class RequestConnectionResponse {
 	private GrantStatus grantStatus;
-	private String url;
+	private String scheme;
+	private String endpoint;
 }

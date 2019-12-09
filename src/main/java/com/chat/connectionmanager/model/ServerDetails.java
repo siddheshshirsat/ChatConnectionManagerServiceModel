@@ -9,5 +9,5 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class ServerDetails {
 	private String serverId;
-    private String url;
+    private String endpoint;
 }
